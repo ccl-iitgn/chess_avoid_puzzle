@@ -1,12 +1,37 @@
-# React + Vite
+# ♟️ Chess Avoidance Puzzle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Chess Avoidance Puzzle** is a strategy-based web puzzle game where the objective is to place chess pieces on a board such that **no piece attacks any other**. This inverse version of standard chess challenges users to think creatively within familiar rules, promoting logical thinking and spatial reasoning.
 
-Currently, two official plugins are available:
+The app also supports custom puzzle creation and automatic puzzle validation using a backtracking algorithm.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
+[https://chess-avoid-puzzle.vercel.app/](https://chess-avoid-puzzle.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- **Avoid-Attack Gameplay**: Place standard chess pieces on a board such that none attack each other.
+- **Custom Puzzle Creation**: Users can create and test their own puzzles with a user-friendly UI.
+-  **Backtracking Solver**: Verifies puzzle validity using recursive constraint checking.
+- **Responsive UI**: Clean, intuitive design with smooth animations and mobile support.
+- **Multiple Levels**: Progress through increasingly difficult puzzles (custom levels can be added easily).
+
+---
+
+## 🧪 How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/bhanupattemz/chessavoidpuzzle.git
+cd chessavoidpuzzle
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# → App runs on http://localhost:5173/
